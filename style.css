@@ -28,3 +28,36 @@ h5, p {
 .carousel-caption {
     bottom: 0;
 }
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 5%;
+    padding-bottom: 5%;
+  }
+  
+  img {
+    width: 100%;
+    padding-left: 10%;
+  }
+  
+  .Zolapic {
+    flex-basis: 40%
+  }
+  
+  .sophieparagraph {
+    padding-left: 20px;
+    color: black;
+  }
+
+.ContactForm{
+    color: black;
+    text-align: center;
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: 'Courier New', Courier, monospace;
+   
+}
